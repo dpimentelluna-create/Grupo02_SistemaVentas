@@ -123,6 +123,7 @@
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
             this.inicioToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.inicioToolStripMenuItem.Text = "Inicio";
+            this.inicioToolStripMenuItem.Click += new System.EventHandler(this.inicioToolStripMenuItem_Click);
             // 
             // javierToolStripMenuItem
             // 
@@ -136,6 +137,7 @@
             this.felipeToolStripMenuItem.Name = "felipeToolStripMenuItem";
             this.felipeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.felipeToolStripMenuItem.Text = "Felipe";
+            this.felipeToolStripMenuItem.Click += new System.EventHandler(this.felipeToolStripMenuItem_Click);
             // 
             // Form1
             // 

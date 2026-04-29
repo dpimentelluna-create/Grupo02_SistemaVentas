@@ -29,8 +29,20 @@ namespace Grupo02_SistemaVentas
 
         private void javierToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new Form1= Form1;
-            
+            Form2 nuevo = new Form2();
+            nuevo.Show();
+
+        }
+
+        private void felipeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Peña_Felipe nuevo = new Peña_Felipe();
+            nuevo.Show();
+        }
+
+        private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
