@@ -39,6 +39,7 @@
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.javierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.felipeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -139,11 +140,18 @@
             this.felipeToolStripMenuItem.Text = "Felipe";
             this.felipeToolStripMenuItem.Click += new System.EventHandler(this.felipeToolStripMenuItem_Click);
             // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(127, 298);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(864, 506);
+            this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.checkBox2);
@@ -176,6 +184,7 @@
         private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem javierToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem felipeToolStripMenuItem;
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
     }
 }
 
