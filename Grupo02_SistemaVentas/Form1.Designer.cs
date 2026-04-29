@@ -35,6 +35,11 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.javierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.felipeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -100,6 +105,38 @@
             this.textBox1.Size = new System.Drawing.Size(276, 20);
             this.textBox1.TabIndex = 6;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inicioToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(864, 24);
+            this.menuStrip1.TabIndex = 7;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // inicioToolStripMenuItem
+            // 
+            this.inicioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.javierToolStripMenuItem,
+            this.felipeToolStripMenuItem});
+            this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.inicioToolStripMenuItem.Text = "Inicio";
+            // 
+            // javierToolStripMenuItem
+            // 
+            this.javierToolStripMenuItem.Name = "javierToolStripMenuItem";
+            this.javierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.javierToolStripMenuItem.Text = "Javier";
+            this.javierToolStripMenuItem.Click += new System.EventHandler(this.javierToolStripMenuItem_Click);
+            // 
+            // felipeToolStripMenuItem
+            // 
+            this.felipeToolStripMenuItem.Name = "felipeToolStripMenuItem";
+            this.felipeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.felipeToolStripMenuItem.Text = "Felipe";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -112,9 +149,13 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,6 +170,10 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem javierToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem felipeToolStripMenuItem;
     }
 }
 

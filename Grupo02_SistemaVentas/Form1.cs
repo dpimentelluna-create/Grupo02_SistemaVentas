@@ -26,5 +26,11 @@ namespace Grupo02_SistemaVentas
         {
 
         }
+
+        private void javierToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Form1= Form1;
+            
+        }
     }
 }
